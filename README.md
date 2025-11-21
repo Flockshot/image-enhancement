@@ -29,9 +29,9 @@ The toolkit is divided into three core modules, each addressing a different chal
 * **File:** `2.m`
 * **Goal:** To implement a custom spatial filtering routine for noise removal and validate its performance.
 * **Implementation:** A custom filtering engine was built to perform **manual convolution and correlation**.
-  	 * This function iterates a filter mask (kernel) over every pixel in the image.
-  	 * At each pixel, it computes the sum of the products of the kernel weights and the corresponding neighborhood pixel intensities.
-  	 * This from-scratch implementation avoids `conv2` and other built-in filtering functions.
+     * This function iterates a filter mask (kernel) over every pixel in the image.
+     * At each pixel, it computes the sum of the products of the kernel weights and the corresponding neighborhood pixel intensities.
+     * This from-scratch implementation avoids `conv2` and other built-in filtering functions.
 * **Result:** The filter successfully processes the image, and its effectiveness can be validated (as per the assignment) by comparing the edge maps of the original and filtered images.
 
 | Before (`Image2.png`) | After (`Image2Output.png`) |
@@ -65,7 +65,7 @@ The toolkit is divided into three core modules, each addressing a different chal
 1.  Open MATLAB.
 2.  Place the image files (`Image1.png`, `Image2.png`, `Image3.png`) in the same directory as the `.m` scripts.
 3.  Open and run the script for the desired task:
-_ 	 * `1.m` (for Histogram Equalization)
-  	 * `2.m` (for Noise Filtering)
-  	 * `3.m` (for Star Detection)
+     * `1.m` (for Histogram Equalization)
+     * `2.m` (for Noise Filtering)
+     * `3.m` (for Star Detection)
 4.  The script will process the input image and save the result as the corresponding `...Output.png` file in the same directory.
