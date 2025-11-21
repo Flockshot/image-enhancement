@@ -22,7 +22,7 @@ The toolkit is divided into three core modules, each addressing a different chal
 
 | Before (`Image1.png`) | After (`Image1Output.png`) |
 :-------------------------:|:-------------------------:
-[Image: Low-contrast original image](.media/Image1.png) | [Image: High-contrast, equalized image](.media/Image1Output.png)
+[](.media/Image1.png) | [](.media/Image1Output.png)
 
 ### 2. Spatial Filtering (Noise Removal)
 
