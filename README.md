@@ -15,14 +15,14 @@ The toolkit is divided into three core modules, each addressing a different chal
 * **File:** `1.m`
 * **Goal:** To enhance a low-contrast image (`Image1.png`) to reveal hidden details.
 * **Implementation:** A generic histogram equalization algorithm was built from first principles:
-  	 1.  Read the image and compute its histogram (frequency of each pixel intensity).
-  	 2.  Calculate the Probability Density Function (PDF) and Cumulative Distribution Function (CDF) from the histogram.
-  	 3.  Transform the original pixel intensities by mapping them to new values based on the CDF, effectively "stretching" the histogram to cover the full 0-255 intensity range.
+     1.  Read the image and compute its histogram (frequency of each pixel intensity).
+     2.  Calculate the Probability Density Function (PDF) and Cumulative Distribution Function (CDF) from the histogram.
+     3.  Transform the original pixel intensities by mapping them to new values based on the CDF, effectively "stretching" the histogram to cover the full 0-255 intensity range.
 * **Result:** The algorithm successfully enhances the low-contrast image to reveal hidden text, with the output image's histogram approximating a uniform distribution.
 
 | Before (`Image1.png`) | After (`Image1Output.png`) |
 | :---: | :---: |
-| > **[Image: Low-contrast original image]** | > **[Image: High-contrast, equalized image]** |
+| [Image: Low-contrast original image](.media/Image1.png) | [Image: High-contrast, equalized image](.media/Image1Output.png) |
 
 ### 2. Spatial Filtering (Noise Removal)
 
@@ -36,7 +36,7 @@ The toolkit is divided into three core modules, each addressing a different chal
 
 | Before (`Image2.png`) | After (`Image2Output.png`) |
 | :---: | :---: |
-| > **[Image: Original noisy image]** | > **[Image: Filtered, smoothed image]** |
+| [Image: Original noisy image](.media/Image2.png) | [Image: Filtered, smoothed image](.media/Image2Output.png) |
 
 ### 3. Spatial Filtering (Feature Detection)
 
@@ -47,7 +47,7 @@ The toolkit is divided into three core modules, each addressing a different chal
 
 | Before (`Image3.png`) | After (`Image3Output.png`) |
 | :---: | :---: |
-| > **[Image: Original astronomical image]** | > **[Image: Processed image with star isolated]** |
+| [Image: Original astronomical image](.media/Image3.png) | [Image: Processed image with star isolated](.media/Image3Output.png) |
 
 ---
 
