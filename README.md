@@ -21,8 +21,8 @@ The toolkit is divided into three core modules, each addressing a different chal
 * **Result:** The algorithm successfully enhances the low-contrast image to reveal hidden text, with the output image's histogram approximating a uniform distribution.
 
 | Before (`Image1.png`) | After (`Image1Output.png`) |
-| :---: | :---: |
-| [Image: Low-contrast original image](.media/Image1.png) | [Image: High-contrast, equalized image](.media/Image1Output.png) |
+:-------------------------:|:-------------------------:
+[Image: Low-contrast original image](.media/Image1.png) | [Image: High-contrast, equalized image](.media/Image1Output.png)
 
 ### 2. Spatial Filtering (Noise Removal)
 
