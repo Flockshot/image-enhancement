@@ -21,8 +21,8 @@ The toolkit is divided into three core modules, each addressing a different chal
 * **Result:** The algorithm successfully enhances the low-contrast image to reveal hidden text, with the output image's histogram approximating a uniform distribution.
 
 | Before (`Image1.png`) | After (`Image1Output.png`) |
-:-------------------------:|:-------------------------:
-[](.media/Image1.png) | [](.media/Image1Output.png)
+| :---: | :---: |
+| ![Image: Low-contrast original image](.media/Image1.png) | ![Image: High-contrast, equalized image](.media/Image1Output.png) |
 
 ### 2. Spatial Filtering (Noise Removal)
 
@@ -36,7 +36,7 @@ The toolkit is divided into three core modules, each addressing a different chal
 
 | Before (`Image2.png`) | After (`Image2Output.png`) |
 | :---: | :---: |
-| [Image: Original noisy image](.media/Image2.png) | [Image: Filtered, smoothed image](.media/Image2Output.png) |
+| ![Image: Original noisy image](.media/Image2.png) | ![Image: Filtered, smoothed image](.media/Image2Output.png) |
 
 ### 3. Spatial Filtering (Feature Detection)
 
@@ -47,7 +47,7 @@ The toolkit is divided into three core modules, each addressing a different chal
 
 | Before (`Image3.png`) | After (`Image3Output.png`) |
 | :---: | :---: |
-| [Image: Original astronomical image](.media/Image3.png) | [Image: Processed image with star isolated](.media/Image3Output.png) |
+| ![Image: Original astronomical image](.media/Image3.png) | ![Image: Processed image with star isolated](.media/Image3Output.png) |
 
 ---
 
